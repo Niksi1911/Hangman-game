@@ -1,0 +1,4 @@
+﻿  VjesalaGame.cpp
+C:\Users\Nikola\source\repos\HangmanGame\VjesalaGame\VjesalaGame.cpp(54,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nikola\source\repos\HangmanGame\VjesalaGame\VjesalaGame.cpp(156,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  VjesalaGame.vcxproj -> C:\Users\Nikola\source\repos\HangmanGame\x64\Debug\VjesalaGame.exe

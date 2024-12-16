@@ -142,7 +142,7 @@
     <ClCompile Include="VjesalaGame.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\Desktop\Vjesala.txt" />
+    <Text Include="Vjesala.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -73,12 +73,12 @@ void StartGame(string word, string& guess_word) {
 	bool flag = false;
 	do
 	{
-		cin >> choice;
-		//while (!(cin >> choice)) {
-		//	cout <<"neispravan unos. trazimo brojeve u rasponu 1-90" <<endl;
-		//	cin.clear(); // Clear error flags
-		//	cin.ignore(1000, '\n'); //clear input buffer
-		//}
+		//cin >> choice;
+		while (!(cin >> choice)) {
+			cout <<"neispravan unos. trazimo brojeve u rasponu 1-90" <<endl;
+			cin.clear(); // Clear error flags
+			cin.ignore(1000, '\n'); //clear input buffer
+		}
 		switch (choice)
 		{
 		case 1:
@@ -150,12 +150,11 @@ void Startgameprintout() {
 	cout << setw(20) << "3 HARD" << "---> 6 LIVES" << endl;
 	cout << "\n";
 	cout <<"-------------------------------------------------> ";
-	
 }
 
 void addLetterToGuess(char c,string& guess_word,int& lives,string word) {
 	int n = guess_word.length();
-
+	
 	string copyOfGuess;
 	copyOfGuess = guess_word;
 
